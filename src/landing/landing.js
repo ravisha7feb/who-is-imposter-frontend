@@ -71,7 +71,7 @@ function Landing() {
             </div>
 
             {/*after-hero section starts*/}
-           
+            <center><h2>Know our platform</h2></center>
 
             <div className="second-part">
 
