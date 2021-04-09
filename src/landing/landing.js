@@ -129,10 +129,10 @@ function Landing() {
 
                 Made with &#9829; by Ravisha, Abhishek and Siddesh
 
-        </div>
-
-        </>
-    )
+          </div>
+       
+    </>
+  );
 }
 
 export default Landing;

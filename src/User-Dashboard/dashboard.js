@@ -10,17 +10,17 @@ const Dashboard = () => {
     return (
         <>
 
-            <div class="dashboard">
+            <div className="dashboard">
 
-                <div class="col-1">
+                <div className="col-1">
 
-                    <div class="logoAndHeader"> {/*display: flex*/}
+                    <div className="logoAndHeader"> {/*display: flex*/}
 
-                        <div class="logo">
+                        <div className="logo">
                             <img src={logo} />
                         </div>
 
-                        <div class="header">
+                        <div className="header">
 
                             <div id="white-text">
                                 Who is
@@ -34,20 +34,20 @@ const Dashboard = () => {
 
                     </div>
 
-                    <div class="side-bar-user-card">
+                    <div className="side-bar-user-card">
 
-                        <div class="user-card">
+                        <div className="user-card">
 
-                            <div class="user-avatar">
+                            <div className="user-avatar">
                                 <img /> {/*for user's avatar*/}
 
                             </div>
 
-                            <div class="user-userid">
+                            <div className="user-userid">
                                 <p>@username</p>  {/*username data */}
                             </div>
 
-                            <div class="logout-button">
+                            <div className="logout-button">
                                 <button><Link to="/">LOG OUT</Link></button>
                             </div>
 
@@ -61,25 +61,25 @@ const Dashboard = () => {
                 </div>  {/*col-1 ends*/}
 
 
-                <div class="col-2">
+                <div className="col-2">
 
-                    <div class="welcome">Welcome Username!</div>
+                    <div className="welcome">Welcome Username!</div>
 
-                    <div class="postings">
+                    <div className="postings">
 
-                        <div class="create-post">
+                        <div className="create-post">
 
-                            <div class="create-post-1"> {/*display:flex*/}
-                                <div class="plus-sign">
+                            <div className="create-post-1"> {/*display:flex*/}
+                                <div className="plus-sign">
                                     <img src={plus} />
 
                                 </div>
-                                <div class="input-field">
+                                <div className="input-field">
                                     <input type="text" placeholder="Write a post ...." />
                                 </div>
                             </div>
 
-                            <div class="post-button">
+                            <div className="post-button">
                                 <button>Post</button>
                             </div>
 
@@ -87,45 +87,42 @@ const Dashboard = () => {
 
                     </div>
                     <div>
-                    
-                        <div class="posting">
 
-                            <div class="post1"> {/*display:flex*/}
+                        <div className="posting">
+
+                            <div className="post1"> {/*display:flex*/}
                                 {/*Get the data from backend*/}
-                                <div class="avatar">
+                                <div className="avatar">
                                 </div>
 
-                                <div class="text">
+                                <div className="text">
                                     <p>X platform gives very authentic news. I highly recommend it</p>
                                 </div>
                             </div>
 
-                            <div class="second-row">
+                            <div className="second-row">
 
-                            <div class="love-reacts">
-                            <div class="love-react">
-                                <img src={love} alt="love-react" />
+                                <div className="love-reacts">
+                                    <div className="love-react">
+                                        <img src={love} alt="love-react" />
+                                    </div>
+
+                                    <div className="love-reactions">
+                                        12
+                            </div>
+                                </div>
+
+                                <div className="show-more-button">
+                                    <a>Show More...</a>
+
+                                </div>
+
                             </div>
 
-                            <div class="love-reactions">
-                                12
-                            </div>
-                            </div>
-
-                            <div class="show-more-button">
-                                <a>Show More...</a>
-
-                            </div>
-
-                            </div>
-                            
 
                         </div>
 
                     </div>
-                        
-                        
-                   
 
                 </div>
 
