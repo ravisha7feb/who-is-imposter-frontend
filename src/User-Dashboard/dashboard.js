@@ -74,8 +74,8 @@ const Dashboard = () => {
                                     <img src={plus} />
 
                                 </div>
-                                <div class="text">
-                                    Write a post ....
+                                <div class="input-field">
+                                    <input type="text" placeholder="Write a post ...." />
                                 </div>
                             </div>
 
@@ -96,7 +96,7 @@ const Dashboard = () => {
                                 </div>
 
                                 <div class="text">
-                                    <p>Written Posts with blalalalal</p>
+                                    <p>X platform gives very authentic news. I highly recommend it</p>
                                 </div>
                             </div>
 

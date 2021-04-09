@@ -126,15 +126,19 @@ border-radius: 25px;
     margin-top: 20px;
     background: #012934;
 }
-.create-post .text{
+.create-post .input-field{
     background: #012934;
     margin-left: 20px;
     margin-top: 30px;
-    font-size: 20px;
-line-height: 30px;
-
-color: rgba(242, 242, 242, 0.6);
-
+    
+}
+.create-post .input-field > input{
+    height: 50px;
+    width: 200px;
+    border-color: #012934;
+    font-size: 15px;
+    line-height: 30px;
+    color: #F2F2F2
 }
 
 .post-button{
@@ -150,7 +154,11 @@ color: rgba(242, 242, 242, 0.6);
     margin-top: 20px;
     margin-left: 300px;
 }
-
+.post-button>button:hover{
+    cursor: pointer;
+    background-color: #52FDD6;
+    color: #001B27;
+}
 /*create-post card ends*/
 
 .posting{
@@ -218,6 +226,14 @@ border-radius: 25px;
     margin-top: 150px;
     color: rgba(242, 242, 242, 0.6);
 }
+.posting .love-react> img:hover{
+    cursor: pointer;
+    opacity: 150%;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
 .posting .show-more-button{
     position: relative;
     background: #012934;
